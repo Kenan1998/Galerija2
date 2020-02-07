@@ -1,0 +1,88 @@
+body{
+	width: 960px;
+	padding: 20px;
+	margin: 20px;
+	background-color: white;
+	font-family: sans-serif;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+h1{
+	font-weight: 200;
+	font-size: 24px;
+	margin-left: 90px
+	
+	
+}
+
+img{
+	width:100%;
+}
+
+.tumblr{
+	width:160px;
+	background: #48D1CC;
+	margin: 20px;
+	border-radius: 5px;
+	display: inline-grid;
+	
+}
+
+.container {
+	
+	height:25px;	
+	text-align: center;
+	background: white;
+	font-size: 14px;
+	overflow: hidden;
+	box-shadow: 0 1px 2px #333333;
+	border-radius: 0 0 5px 5px;
+}
+
+.container > p{
+	margin: 5px;
+}
+
+
+#grid{
+	
+	display: inline-grid;
+	grid-template-columns: 150px 150px 150px 150px 150px;
+	grid-auto-rows: 100px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin-top: 40px;
+	margin-left: 70px;
+	column-gap: 40px;
+	row-gap: 50px;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr 1fe 1fr;
+}
+
+@media (min-width: 144px) {
+  #grid { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (min-width: 600px) {
+  #grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  #grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1200px) {
+  #grid { grid-template-columns: repeat(5, 1fr); }
+}
+	
+	
+.tekst p{
+	margin-left: 85px;
+	margin-top: 75px;
+	width: 1200px;
+	font-size:16px;
+	font-style: oblique;
+	text-align: justify;
+}
+
